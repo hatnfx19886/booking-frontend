@@ -1,0 +1,42 @@
+.container h2 {
+  margin: 1rem 0;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+  outline: none;
+}
+.form input::placeholder {
+  font-size: 14px;
+}
+
+.rooms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 4rem;
+  row-gap: 1rem;
+}
+
+.room {
+  text-align: center;
+  gap: 1rem;
+}
+
+.payment {
+  font-size: 16px;
+  padding: 0.5rem;
+  margin-right: 3rem;
+  outline: none;
+}

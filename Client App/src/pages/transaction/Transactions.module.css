@@ -1,0 +1,25 @@
+.table h2 {
+  margin: 2rem 0 1rem 0;
+}
+
+.table thead {
+  background-color: #32a4c1;
+  color: #fff;
+  padding: 1rem 0.5rem;
+}
+
+.table .booked,
+.table .checkin,
+.table .checkout {
+  color: #008000 !important;
+  border-radius: 0.5rem;
+}
+.table .booked {
+  background-color: #f69685;
+}
+.table .checkin {
+  background-color: #39d139;
+}
+.table .checkout {
+  background-color: #d3d0f2;
+}

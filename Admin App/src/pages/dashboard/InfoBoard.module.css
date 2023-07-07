@@ -1,0 +1,43 @@
+.info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+}
+
+.item {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px rgba(170, 170, 170, 0.4);
+}
+.item p {
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 700;
+}
+.item svg {
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.icon {
+  text-align: right;
+}
+.user {
+  color: #e8556f;
+  background-color: #ffcccc;
+}
+
+.order {
+  color: #e4bb57;
+  background-color: #f8edd2;
+}
+
+.earning {
+  color: #46a346;
+  background-color: #cce6cc;
+}
+
+.balance {
+  color: #993399;
+  background-color: #e6cce6;
+}

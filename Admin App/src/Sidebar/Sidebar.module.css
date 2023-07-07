@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  border-right: 1px solid #ddd;
+  margin: 1rem 2rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  column-gap: 1.5rem;
+  position: sticky;
+  top: 1rem;
+  height: max-content;
+  border-right: 1px solid #ddd;
+}
+
+.title {
+  color: #7451f8;
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-weight: 700;
+}
+
+.sidebar p {
+  margin-top: 1rem;
+}
+
+.sidebar span {
+  margin-left: 1rem;
+}
+
+.sidebar svg {
+  width: 20px;
+  color: #7451f8;
+}
+
+.item {
+  padding: 0.5rem;
+}
+
+.item:hover,
+.item:active {
+  cursor: pointer;
+  background-color: #eee;
+  border-radius: 8px;
+}

@@ -1,0 +1,53 @@
+.table {
+  margin-top: 0.5rem;
+  font-size: 12px;
+  border: 1px solid #ddd;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 20px 3.5fr 2.5fr 3fr 2fr 3fr 1.5fr 2.5fr 1.5fr;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.row p {
+  padding-left: 0.5rem;
+}
+
+.row button {
+  font-size: 12px;
+  margin-left: 0.5rem;
+  border-style: dashed;
+}
+.head p {
+  border-left: 1px solid #ddd;
+}
+.title {
+  color: #aaa;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.booked,
+.checkin,
+.checkout {
+  color: #008000 !important;
+  border-radius: 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+}
+.booked {
+  background-color: #f69685;
+}
+.checkin {
+  background-color: #39d139;
+}
+.checkout {
+  background-color: #d3d0f2;
+}
+
+.table .row:last-child {
+  border-bottom: none;
+}

@@ -1,0 +1,11 @@
+.homeContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.homeContainer h1 {
+  text-align: left;
+  font-weight: 700;
+}
